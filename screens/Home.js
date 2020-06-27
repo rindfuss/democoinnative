@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { StyleSheet, Text, View } from 'react-native';
 import CoinView from './CoinView';
 
 export default function Home(props) {
 	//const [refreshDate, setRefreshDate] = useState('-');
-	
+
 	const setRefreshDate = (date) => {
 		if (props.navigation) {
 			props.navigation.setParams({refreshDate: date});

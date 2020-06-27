@@ -20,6 +20,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* democoinnativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* democoinnativeTests.m */; };
 		736D54843E5AE3F96D20B997 /* libPods-democoinnative-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC07C211D063FFE6AC4E894 /* libPods-democoinnative-tvOS.a */; };
 		9B381B719C710AB2A3CB2F41 /* libPods-democoinnative-democoinnativeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56719A894BCFF218484C7457 /* libPods-democoinnative-democoinnativeTests.a */; };
+		9B41F10224A6D4030030D5F5 /* TestScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B41F10124A6D4030030D5F5 /* TestScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		56719A894BCFF218484C7457 /* libPods-democoinnative-democoinnativeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-democoinnative-democoinnativeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7E92BB24AE45DAC553ACD1 /* Pods-democoinnative-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-democoinnative-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-democoinnative-tvOS/Pods-democoinnative-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		732FDAA416D2C312C0232FB4 /* Pods-democoinnative-democoinnativeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-democoinnative-democoinnativeTests.release.xcconfig"; path = "Target Support Files/Pods-democoinnative-democoinnativeTests/Pods-democoinnative-democoinnativeTests.release.xcconfig"; sourceTree = "<group>"; };
+		9B41F10124A6D4030030D5F5 /* TestScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestScreen.xib; sourceTree = "<group>"; };
 		C2459AC3C4E491739E8AD479 /* libPods-democoinnative-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-democoinnative-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4619F013219840F8D6FB5F5 /* Pods-democoinnative-democoinnativeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-democoinnative-democoinnativeTests.debug.xcconfig"; path = "Target Support Files/Pods-democoinnative-democoinnativeTests/Pods-democoinnative-democoinnativeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D95D7F49FFBA69A7E006087B /* libPods-democoinnative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-democoinnative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +134,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				9B41F10124A6D4030030D5F5 /* TestScreen.xib */,
 			);
 			name = democoinnative;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				9B41F10224A6D4030030D5F5 /* TestScreen.xib in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
