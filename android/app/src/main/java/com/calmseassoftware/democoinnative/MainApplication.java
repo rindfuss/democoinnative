@@ -1,4 +1,4 @@
-package com.democoinnative;
+package com.calmseassoftware.democoinnative;
 
 import android.app.Application;
 import android.content.Context;
@@ -7,6 +7,7 @@ import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactInstanceManager;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
+import com.calmseassoftware.democoinnative.BuildConfig;
 import com.facebook.soloader.SoLoader;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;

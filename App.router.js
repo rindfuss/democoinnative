@@ -17,11 +17,7 @@ const Header = (props) => {
 
 export default function App() {
 	useEffect(() => {
-		//SplashScreen.show();
-		//setTimeout(() => {
-		//	console.log("hiding");
-			SplashScreen.hide();
-		//}, 5000);
+		SplashScreen.hide();
 	}, []);
 
 	const MainStack = createStackNavigator({
@@ -59,10 +55,7 @@ export default function App() {
 	
 	const AppContainer = createAppContainer(MainStack);
 	
-	  	//<AppContainer />
 	return (
-	  	<View>
-			<Text>Hello, World!</Text>
-		</View>
+	  	<AppContainer />
     );
 }

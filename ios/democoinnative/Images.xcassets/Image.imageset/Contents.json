@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "bitcoin200.png",
+      "filename" : "bitcoin300.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "bitcoin400.png",
+      "filename" : "bitcoin600.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "bitcoin600.png",
+      "filename" : "bitcoin900.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

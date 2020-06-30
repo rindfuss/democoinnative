@@ -46,8 +46,8 @@ static void InitializeFlipper(UIApplication *application) {
   self.window.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];
   
-  [RNSplashScreen show];
-  //[RNSplashScreen showSplash:@"TestScreen" inRootView:rootView];
+  //[RNSplashScreen show];
+  [RNSplashScreen showSplash:@"TestScreen" inRootView:rootView];
   
   return YES;
 }
