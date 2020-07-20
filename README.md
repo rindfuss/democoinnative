@@ -4,7 +4,7 @@ This is a React Native learning project based on a tutorial by [Jeff Gu Kang](ht
 
 I worked through the tutorial and then implemented the following changes:
 -   Converted the author's class-based code to use hooks instead.
--   Created "MorphBall" component, a circle that shrinks and grows using CSS animation and is used as a placeholder component while waiting for the API to return data.
+-   Created "MorphBall" component, a circle that shrinks and grows using react native animation and is used as a placeholder component while waiting for the API to return data.
 -   Added splash screens on iOS and Android to avoid white RN screen that appears during app loading:
     - Started with the following tutorial [https://medium.com/@appstud/add-a-splash-screen-to-a-react-native-app-810492e773f9](https://medium.com/@appstud/add-a-splash-screen-to-a-react-native-app-810492e773f9), which makes use of the react-native-splash-screen package.
     - I set splash screen to change from a bitcoin image to a photo of a dog to illustrate the startup process:
