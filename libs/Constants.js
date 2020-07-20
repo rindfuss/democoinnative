@@ -30,19 +30,15 @@ export function getCoinIconUri(coinName) {
 	  switch(coinName) {
 		case 'Bitcoin':
 		return 'https://bbc.com';	
-		return 'https://youtu.be/ar9PuUCvvCw';
 	  
 		case 'Ethereum':
 			return 'https://evernote.com';
-			return 'https://youtu.be/ar9PuUCvvCw';
 	  
 		case 'XRP':
 			return 'https://reddit.com';
-			return 'https://youtu.be/ar9PuUCvvCw';
 	  
 		case 'EOS':
 			return 'https://www.navy.mil';
-			return 'https://youtu.be/ar9PuUCvvCw';
 
 		default:
 			return 'https://youtu.be/ar9PuUCvvCw';

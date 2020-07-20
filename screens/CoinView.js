@@ -8,40 +8,28 @@ import { TouchableOpacity } from 'react-native';
 const CoinView = (props) => {
 	const [coinDatas, setCoinDatas] = useState([]);
 	const [isQueryRunning, setIsQueryRunning] = useState(false);
-	//const isQueryRunning = useRef(false);
+	
 	const instanceNum = useRef(1);
 
 	const abortController = new AbortController();
 	const abortSignal = abortController.signal;
 
 	useEffect(()=> {
-		//console.log('called useEffect');
 		const timeoutMS = 10000;
 	
 		getCoinDatas(instanceNum.current++);
-		/*
-		const interval = setInterval( () => {
-			getCoinDatas(instanceNum.current++);
-		}, timeoutMS);
-		*/
-		
 	
 		return (function cleanup() {
-			//console.log("Clearing interval: " + interval);
-			//clearInterval(interval);
 			abortController.abort;
 		});
 	},[]);
 
 	async function getCoinDatas(iNum) {
-		//console.log('inside getCoinDatas (' + iNum + ').');
-		//console.log('- isQueryRunning: ' + isQueryRunning.current);
 		if (!isQueryRunning) {
 			setIsQueryRunning(true);
 			try {
-				fetch(`http://rpr.calmss.com/bitcoin.php`, {signal: abortSignal})
+				fetch(`http://democoinnative.herokuapp.com/index.php`, {signal: abortSignal})
 				.then(response => {
-					//console.log("- Got json (" + iNum + ") at " + ((new Date()).toLocaleString()));
 					return response.json();
 				})
 				.then(data => {
@@ -51,13 +39,10 @@ const CoinView = (props) => {
 						props.refreshDate(now);
 					}
 					setCoinDatas(data);
-					//console.log("- Set data (" + iNum + ")");
-					//setTimeout(() => { getCoinDatas(10); }, timeoutMS);
 					setIsQueryRunning(false);
 				});
 			} catch(error) {
 				console.error('- getCoinDatas (' + iNum + ') error:', error);
-				//setTimeout(() => { getCoinDatas(10); }, timeoutMS);
 				setIsQueryRunning(false);
 			}
 		}
