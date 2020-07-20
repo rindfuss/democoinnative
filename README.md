@@ -12,7 +12,7 @@ I worked through the tutorial and then implemented the following changes:
         2) React native loads its javascript during which there's normally a white screen with green loading status bar at top. The dog image is displayed during this time by Android- and iOS specific code that runs after the Android/iOS splash screen disapears. In my example, changing the dog image to the bitcoin image would make it appear to the user that there's just one startup splash screen.
         3) React native displays the App component, which in this case hides the dog image when the App component.
 -   Modified what the tutorial did when tapping on a price quote. The tutorial opened a YouTube page in a web view. I modified the code to open a different website based on the type of coin for Bitcoin, Ethereum, XRP, or EOS. The websites that open are somewhat random and other coin types default to the YouTube link provided in the tutorial.
--   Created a simple backend website with heroku (see bitcoin.php in the php folder) as an API-simulator since the API the tutorial used no longer functions.
+-   Created a simple backend website with heroku (see index.php in the php folder) as an API-simulator since the API the tutorial used no longer functions.
 
 
 > Written with [StackEdit](https://stackedit.io/).

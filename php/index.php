@@ -1,5 +1,5 @@
 <?php
-	sleep(5); // to simulate delay in API response in order to test the MorphBall loading image in the app
+	sleep(1); // to simulate delay in API response in order to test the MorphBall loading image in the app
 	$coinNames = [
 		'Bitcoin',
 		'Ethereum',
