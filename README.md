@@ -1,4 +1,4 @@
-# Demo Coin Native
+# Demo React Native Cryptocurrency Quote App
 This is a React Native learning project based on a tutorial by [Jeff Gu Kang](https://github.com/JeffGuKang) at 
 [https://reactnativeexample.com/react-native-tutorial-show-me-the-coin-2019/](https://reactnativeexample.com/react-native-tutorial-show-me-the-coin-2019/).
 
